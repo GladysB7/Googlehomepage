@@ -1,0 +1,107 @@
+.header
+{
+	display: flex;
+	justify-content:  flex-end;
+	align-items: center;
+
+}
+
+.Gmail,.Images,.Applications,.MonCompte
+{
+	display: flex;
+	margin-right: 5px;
+	margin-left: 5px;
+}
+
+.MonCompte
+{
+	margin-right: 10px;
+	padding: 7px 15px 7px 15px;
+	border:none;
+	border-radius: 5px;
+	color: white;
+	background: rgb(93,133,242);
+
+}
+
+#conteneur
+{
+	display: flex;
+	justify-content: center;
+	flex-direction: column;
+	align-items: center;
+	border: 2px none #444;
+	height: 450px;
+	
+}
+
+.logogoogle
+{
+	display:flex;
+	justify-content: center;
+	align-items: center;
+	margin:auto;
+}
+
+.barre
+{
+	display:flex;
+	justify-content: center;
+	align-items: center;
+	border:1px color:rgb(235,235,235);
+	font-size: 15px;
+	color: black;
+	background-color: #f8f8f8
+	padding:10px 18px 10px 18px;
+	border-radius: 20px;
+	margin-top: 20px;
+	margin-bottom: 20px;
+	width:450px;
+	height:40px;
+
+}
+
+.bouton1,.bouton2
+{
+	
+	align-items: center;
+	margin-right: 10px;
+	padding: 7px 15px 7px 15px;
+	border:none;
+	border-radius: 5px;
+	background: rgb(235,235,235);
+	color: grey;
+
+}
+
+.footer
+{
+	background: rgb(242,242,242);
+	justify-content: space-between;
+}
+
+
+.Confi,.Infocono, .Conditions, .Paramètres
+{
+	margin-right: 5px;
+	margin-left: 5px;
+}	
+
+.basdroit
+{
+	display: flex;
+	justify-content:  flex-end;
+}
+
+.AP,.Pub,.Comment,.Ent
+{
+	margin-right: 5px;
+	margin-left: 5px;
+}
+p,a
+{
+	text-decoration: none;
+	color: grey;
+	font-size: 13px;
+	font-family:Arial,Helvetica,sans-serif;
+}
